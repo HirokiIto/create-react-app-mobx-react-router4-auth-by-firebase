@@ -32,7 +32,8 @@ $ cd <my-project-name>
 $ npm install
 ```
 
-firebaseへ接続するためのapiKeyなどを予め[firebase](https://firebase.google.com/)のサイトで取得しfirebase.jsの各項目を埋める
+Get apiKey, authDomain, etc... from [https://firebase.google.com/](https://firebase.google.com/) for connecting firebase
+and input each item of firebase.js
 
 ```
 .
@@ -40,6 +41,16 @@ firebaseへ接続するためのapiKeyなどを予め[firebase](https://firebase
     └── config
         └── firebase.js
 
+```
+```
+{
+  apiKey: "...",
+  authDomain: "....firebaseapp.com",
+  databaseURL: "https://....firebaseio.com",
+  projectId: "...",
+  storageBucket: "....appspot.com",
+  messagingSenderId: "..."
+}
 ```
 
 ## Running the Project
@@ -56,7 +67,7 @@ Serves your app at `http://localhost:8008`
 
 [demo](https://hirokiito.github.io/create-react-app-mobx-react-router4-auth-by-firebase)
 
-sign upコンポーネントなどは含まれてません。
+sign up components etc are not included in this demo
 
 sign in
 * mail: xxx@gmail.com
