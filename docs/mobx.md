@@ -9,8 +9,8 @@
 Navigation.js @inject('session')
 auth.userの値によってNavigationコンポーネントを入れ替える
 
-???
-配列で@observableが効いていない
+
+### 配列で@observableが効いていない
 ↓
 ```
 @observable groups = [];
