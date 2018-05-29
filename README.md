@@ -1,8 +1,8 @@
-# create-react-app mobx react-router4 auth by firebase
+# create-react-app mobx react-router4 auth by firebase and material-ui
 
 [ripo](https://github.com/HirokiIto/create-react-app-mobx-react-router4-auth-by-firebase)
 
-This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorator and firebase.
+This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorator + firebase + material-ui.
 
 Except for the src and docs folders, what is included when initializing with [create-react-app](https://github.com/facebook/create-react-app).
 On the template of create-react-app,
