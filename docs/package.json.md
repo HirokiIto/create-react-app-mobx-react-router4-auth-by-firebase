@@ -1,8 +1,15 @@
 create-react-appのテンプレートの上で、
 mobx且つdecoratorを使うには以下の操作が必要
-#type `npm run eject` on the command line, if you have bootstrapped your app with create-react-app
-#install the necessary Babel plugin `npm install --save-dev babel-plugin-transform-decorators-legacy`
-#add the following Babel configuration to your package.json
+### type
+```bash
+$ npm run eject
+```
+on the command line, if you have bootstrapped your app with create-react-app
+### install the necessary Babel plugin
+```bash
+$ npm install --save-dev babel-plugin-transform-decorators-legacy
+```
+### add the following Babel configuration to your package.json
 `
 "babel": {
   "plugins": [
@@ -13,7 +20,10 @@ mobx且つdecoratorを使うには以下の操作が必要
   ]
 },
 `
-#install mobx and mobx-react, if you didn’t do it already `npm install --save mobx mobx-react`
+### install mobx and mobx-react, if you didn’t do it already
+```bash
+$ npm install --save mobx mobx-react
+```
 
 `npm run eject`をするとcreate-react-appで包まれていた内容が展開される。
 
@@ -28,7 +38,9 @@ mobx且つdecoratorを使うには以下の操作が必要
 * @material-ui/icons
 * react-calendar-timeline
 * moment
+
 sampleで必要だった→
+
 * faker
 * randomcolor"
 
