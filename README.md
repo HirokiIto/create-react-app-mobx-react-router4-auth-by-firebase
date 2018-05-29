@@ -2,6 +2,8 @@
 
 [ripo](https://github.com/HirokiIto/create-react-app-mobx-react-router4-auth-by-firebase)
 
+This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorators and firebase.
+
 ## Project Structure
 
 ```
