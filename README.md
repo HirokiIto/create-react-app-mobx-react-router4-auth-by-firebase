@@ -2,7 +2,32 @@
 
 [ripo](https://github.com/HirokiIto/create-react-app-mobx-react-router4-auth-by-firebase)
 
-This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorators and firebase.
+This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorator and firebase.
+
+Except for the src and docs folders, what is included when initializing with [create-react-app](https://github.com/facebook/create-react-app).
+On the template of create-react-app,
+To use the mobx decorator, you need the following operations
+### type
+```bash
+$ npm run eject
+```
+↑Things that were gathered will be decompress.
+
+### install the necessary Babel plugin
+```bash
+$ npm install --save-dev babel-plugin-transform-decorators-legacy
+```
+### add the following Babel configuration to your package.json
+`
+"babel": {
+  "plugins": [
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    "react-app"
+  ]
+},
+`
 
 ## Project Structure
 
@@ -18,7 +43,7 @@ This project is a boilerplate for a front-end development with create-react-app 
     ├── index.js             # Application bootstrap and rendering
     ├── routes.js            # Main route definitions
     ├── stores               # Mobx-specific pieces
-    ├── utils                # utilities
+    └── utils                # utilities
 
 ```
 
