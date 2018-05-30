@@ -51,9 +51,13 @@ export default class ReservedGuests {
   @action.bound
   addGroups() {
     let newGroups = this.groups.slice();
+    let sameGroup = false;
+    newGroups.forEach(v => { if(v.title === this.groupTitle) sameGroup = true; })
+    // 同じ名前ならpushできない
+    if(sameGroup) return;
     newGroups.push({id: this.groupId, title: this.groupTitle});
     this.groups = newGroups;
-    this.groupId = this.groups.length;
+    this.groupId++;
   }
 
   // タイムラインの予約者を削除
@@ -71,7 +75,6 @@ export default class ReservedGuests {
     })
     this.groups = newGroups;
     this.items = newItems;
-    this.groupId = this.groups.length;
     this.groupTitle = '';
   }
 
@@ -94,7 +97,7 @@ export default class ReservedGuests {
     newItems.push({id: this.itemId, group: this.itemGroup, start: momentStart, end: momentEnd, title: this.itemTitle});
     // 更新
     this.items = newItems;
-    this.itemId = this.items.length;
+    this.itemId++;
     // 初期化
     this.itemGroup = '';
     this.itemStartTime = '';
@@ -114,7 +117,6 @@ export default class ReservedGuests {
       }
     })
     this.items = newItems;
-    this.itemId = this.items.length;
     this.groupTitle = '';
   }
 

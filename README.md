@@ -6,7 +6,7 @@ This project is a boilerplate for a front-end development with create-react-app 
 
 Except for the src and docs folders, what is included when initializing with [create-react-app](https://github.com/facebook/create-react-app).
 On the template of create-react-app,
-To use the mobx decorator, you need the following operations
+To use the `mobx decorator`, you need the following operations
 ### type
 ```bash
 $ npm run eject

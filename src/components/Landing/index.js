@@ -29,6 +29,7 @@ const LandingPage = () =>
     <br />
     <br />
     <br />
+    I am the administrator of this linked guesthouse. Please stay overnight(:
     <br />
     <br />
     <br />
