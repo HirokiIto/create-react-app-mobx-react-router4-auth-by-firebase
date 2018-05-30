@@ -4,38 +4,13 @@
 
 This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorator + firebase + material-ui.
 
-Except for the src and docs folders, what is included when initializing with [create-react-app](https://github.com/facebook/create-react-app).
-On the template of create-react-app,
-To use the `mobx decorator`, you need the following operations
-### type
-```bash
-$ npm run eject
-```
-↑Things that were gathered will be decompress.
-
-### install the necessary Babel plugin
-```bash
-$ npm install --save-dev babel-plugin-transform-decorators-legacy
-```
-### add the following Babel configuration to your package.json
-`
-"babel": {
-  "plugins": [
-    "transform-decorators-legacy"
-  ],
-  "presets": [
-    "react-app"
-  ]
-},
-`
-
 ## Demonstrate
 
 [demo](https://hirokiito.github.io/react-template-2018)
 
 sign up components etc are not included in this demo
 
-sign in
+You can sign in by input the following mail and pass.
 * mail: xxx@gmail.com
 * pass: aaaaaa
 
@@ -100,6 +75,36 @@ $ npm start
 
 Serves your app at `http://localhost:8008`
 
+## Notes
+
+Except for the src and docs folders, what is included when initializing with [create-react-app](https://github.com/facebook/create-react-app).
+On the template of create-react-app,
+To use the `mobx decorator`, you need the following operations
+
+#### type
+```bash
+$ npm run eject
+```
+↑Things that were gathered will be decompress.
+
+#### install the necessary Babel plugin
+
+```bash
+$ npm install --save-dev babel-plugin-transform-decorators-legacy
+```
+
+#### add the following Babel configuration to your package.json
+
+`
+"babel": {
+  "plugins": [
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    "react-app"
+  ]
+},
+`
 
 ## reference
 
