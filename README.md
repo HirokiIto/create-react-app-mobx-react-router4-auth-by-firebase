@@ -1,6 +1,6 @@
 # create-react-app mobx react-router4 auth by firebase and material-ui
 
-[ripo](https://github.com/HirokiIto/create-react-app-mobx-react-router4-auth-by-firebase)
+[ripo](https://github.com/HirokiIto/react-template-2018)
 
 This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorator + firebase + material-ui.
 
@@ -28,6 +28,16 @@ $ npm install --save-dev babel-plugin-transform-decorators-legacy
   ]
 },
 `
+
+## Demonstrate
+
+[demo](https://hirokiito.github.io/react-template-2018)
+
+sign up components etc are not included in this demo
+
+sign in
+* mail: xxx@gmail.com
+* pass: aaaaaa
 
 ## Project Structure
 
@@ -90,15 +100,6 @@ $ npm start
 
 Serves your app at `http://localhost:8008`
 
-## Demonstrate
-
-[demo](https://hirokiito.github.io/create-react-app-mobx-react-router4-auth-by-firebase)
-
-sign up components etc are not included in this demo
-
-sign in
-* mail: xxx@gmail.com
-* pass: aaaaaa
 
 ## reference
 
