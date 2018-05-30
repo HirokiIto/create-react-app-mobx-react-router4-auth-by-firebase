@@ -113,3 +113,7 @@ sign in
 ## Authors
 
 * Hiroki Ito
+
+License
+===============
+MIT

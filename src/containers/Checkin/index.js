@@ -32,11 +32,10 @@ export default class Checkin extends Component {
       guest.name === '' ||
       guest.sex === '' ||
       guest.age === '' ||
-      guest.address === '' ||
-      guest.comingFrom === '';
+      guest.address === '';
 
     return (
-      <div>        
+      <div>
         <br />
         <h1>Confirm Check-In information</h1>
         <br />
@@ -80,7 +79,7 @@ export default class Checkin extends Component {
             />
             <TextField
               id="comingFrom"
-              label="Coming From"
+              label="Coming From (Place you stayed on the previous day)"
               className="comingFrom"
               style={styles.textField}
               value={guest.comingFrom}
