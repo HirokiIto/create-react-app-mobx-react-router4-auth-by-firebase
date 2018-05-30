@@ -36,7 +36,7 @@ You can sign in by input the following mail and pass.
 ## Installation
 
 ```bash
-$ git clone https://github.com/HirokiIto/create-react-app-mobx-react-router4-auth-by-firebase.git <my-project-name>
+$ git clone https://github.com/HirokiIto/react-template-2018.git <my-project-name>
 $ cd <my-project-name>
 ```
 
