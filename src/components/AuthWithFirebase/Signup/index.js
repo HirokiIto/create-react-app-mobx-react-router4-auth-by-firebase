@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
+import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
@@ -7,11 +8,21 @@ import { auth, db } from '../../../utils/firebase';
 
 import * as routes from '../../../routes';
 
+const styles = {
+  paper: {
+    width: '480px',
+    margin: '40px',
+    padding: '20px',
+    display: 'inline-block',
+    backgroundColor: 'rgba(255,255,255,0.8)',
+  },
+};
+
 const SignUpPage = ({ history }) =>
-  <div>
+  <Paper style={styles.paper} elevation={6}>
     <h1>Sign Up</h1>
     <SignUpForm history={history}/>
-  </div>
+  </Paper>
 
 const INITIAL_STATE = {
   username: '',
