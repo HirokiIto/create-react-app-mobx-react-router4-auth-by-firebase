@@ -2,7 +2,7 @@
 
 [ripo](https://github.com/HirokiIto/react-template-2018)
 
-This project is a boilerplate for a front-end development with create-react-app + react-router4 + mobx + decorator + firebase + material-ui.
+This project is a template for a front-end development with create-react-app + react-router4 + mobx + decorator + firebase + material-ui.
 
 ## Demonstrate
 
